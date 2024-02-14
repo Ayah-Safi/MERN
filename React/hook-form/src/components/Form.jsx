@@ -19,6 +19,11 @@ const Form = (props) =>{
             password: password,
         }
         console.log("Welcome!", newUser);
+        setFirstName("");
+        setLastName("");
+        setEmail("");
+        setPassword("");
+        setConfirmPass("");
     }
     return (
         <>
