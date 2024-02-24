@@ -15,7 +15,7 @@ const BoxGenerator = () => {
         <>
             <form onSubmit={onSumbit}>
                 <label htmlFor="color">Color</label>
-                <input type="text" name="color" />
+                <input type="text" name="color"/>
                 <button type="sumbit">Add</button>
             </form>
 
